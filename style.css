@@ -2,11 +2,7 @@
     font-family: sans-serif;
 }
 body, html{
-<<<<<<< HEAD
-    height: 100vh;
-=======
     height: 100%;
->>>>>>> 25c7a25ca1d036fd785b9fd4fe92c09ae6ab63e8
     margin: 0;
     box-sizing: border-box;
     font-size: 62.5%;
@@ -22,12 +18,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
     color:white
-=======
-    color:white;
-    text-align: center;
->>>>>>> 25c7a25ca1d036fd785b9fd4fe92c09ae6ab63e8
 }
 .title img{
     height: 7rem;
@@ -50,7 +41,6 @@ body{
     inset 0px 0px 5px black;
     background-color: rgb(229, 200, 255);
 }
-<<<<<<< HEAD
 .main div h3{
     font-size: 2.5rem;
     justify-self: flex-start;
@@ -61,25 +51,6 @@ body{
     font-size: 3.5rem;
 }
 
-=======
-.column-title{
-    font-size: 2.5rem;
-    display: flex;
-    align-items: center;
-    margin: 0;
-    transition: all .5s;
-}
-.column:hover .column-title, .column:hover .icon{
-    font-size: 3.5rem;
-    height: 5rem;
-}
-
-.icon{
-    height: 4rem;
-    transition: all .5s;
-    margin-left: 1rem;
-}
->>>>>>> 25c7a25ca1d036fd785b9fd4fe92c09ae6ab63e8
 .column:hover{
     flex:3;
 }
@@ -126,8 +97,6 @@ label{
 }
 .button:active{
     transform: translateY(1px);
-<<<<<<< HEAD
-=======
 }
 @media only screen and (max-width: 600px){
     .main{
@@ -146,5 +115,4 @@ label{
         font-size: 2.5rem;
         height: 4rem;
     }
->>>>>>> 25c7a25ca1d036fd785b9fd4fe92c09ae6ab63e8
 }
